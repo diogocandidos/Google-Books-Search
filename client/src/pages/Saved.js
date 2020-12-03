@@ -51,7 +51,10 @@ class Saved extends Component {
                     >
                     </SavedList>
                 ) : (
-                    <h4>No results to display</h4>
+                    <div>
+                        <hr/>
+                    <h4 style={{fontStyle: "italic"}}>No results to display</h4>
+                    </div>
                 )}
                 </Container>
             </div>

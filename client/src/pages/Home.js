@@ -78,7 +78,7 @@ class Home extends Component {
                 ) : (
                     <div>
                         <hr/>
-                    <p style={{fontStyle: "italic"}}>No results to display</p>
+                    <h4 style={{fontStyle: "italic"}}>No results to display</h4>
                     </div>
                 )}
                 
